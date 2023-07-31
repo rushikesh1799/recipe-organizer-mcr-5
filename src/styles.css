@@ -1,0 +1,94 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search__container {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.recipes__container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.recipe__card {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.recipe__cuisine,
+.recipe__ingredients,
+.recipe__instructions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuisine__title,
+.ingredients__title,
+.instructions__title {
+  font-weight: 600;
+}
+
+.cuisine__ans,
+.ingredients__ans,
+.instructions__ans {
+  font-size: 12px;
+}
+
+.back {
+  cursor: pointer;
+}
+
+.recipe__detail__container {
+  display: flex;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: start;
+
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.recipe__photo {
+  width: 350px;
+  height: 400px;
+}
+
+.recipe__image {
+  width: 200px;
+  height: 200px;
+}
+
+.recipe__details {
+  padding: 1rem;
+}
+
+.ingredients__details__title {
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+.edit__button,
+.delete__button {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
